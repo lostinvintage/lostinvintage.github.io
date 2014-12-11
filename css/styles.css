@@ -1,0 +1,243 @@
+/***************************
+CONTENTS
+
+01. BASE
+02. LAYOUT
+03. MODULES
+04. STATE
+05. THEME
+
+***************************/
+
+/***************************
+00. RESET
+***************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+ margin:0;
+ padding:0;
+ border:0;
+ font-weight:inherit;
+ font-style:inherit;
+ font-size:100%;
+ font-family:inherit;
+ vertical-align:baseline;
+}
+
+body { line-height:1.5; }
+
+table {
+ border-collapse:separate;
+ border-spacing:0;
+}
+
+caption, th, td {
+ text-align:left;
+ font-weight:normal;
+}
+
+table, td, th { vertical-align:middle; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+a img { border:none; }
+
+/***************************
+01. BASE
+***************************/
+
+body {
+	background: url(../images/bluenoise.png);
+	background-repeat:repeat;
+	font-family: 'Codystar', cursive;
+	font-family: 'Quicksand', arial, verdana, sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Ewert', cursive;
+	font-family: 'Sancreek', cursive;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 18px;
+	color: #FFF;
+	font: helvetica;
+}
+
+img,
+a img {
+ border: 0;
+}
+
+a, a:link, a:visited {
+ color: #3bb6cc;
+ text-decoration: underline;
+}
+
+a:hover {
+ color: #d94c73;
+}
+
+p {
+ padding-bottom: 10px;
+}
+
+strong {
+ font-weight: bold;
+}
+
+form {
+ margin: 0;
+ padding: 0;
+ width: 400px;
+}
+
+fieldset {
+}
+
+input[type=email] {
+ background: #fff;
+ width: 280px;
+ height: 20px;
+ padding: 10px;
+ margin: 0;
+ line-height: 1;
+ border: none;
+ 
+ -moz-border-radius: 3px;
+ -o-border-radius: 3px;
+ -ms-border-radius: 3px;
+ border-radius: 3px;
+}
+
+input[type=submit] {
+ background: #707070;
+ width: 90px;
+ padding: 0;
+ height: 40px;
+ line-height: 40px;
+ color: #fff;
+ font-family: 'Comfortaa', helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ outline: none;
+ border: none;
+ float: right;
+ cursor: pointer;
+
+ -moz-border-radius: 3px;
+ -o-border-radius: 3px;
+ -ms-border-radius: 3px;
+ border-radius: 3px;
+}
+
+/***************************
+02. LAYOUT
+***************************/
+
+#topWrapper {
+ margin: 0;
+ padding: 0;
+}
+
+#page {
+ margin-left: 60px;
+ padding-top: 50px;
+ padding-bottom: 40px;
+ width: 700px;
+}
+
+#logo {
+ width: 400px;
+}
+
+#headline {
+ margin-top: 50px;
+ width: 700px;
+}
+
+#descrip {
+ width: 400px;
+ margin-top: 30px;
+}
+
+#mc_embed_signup {
+ width: 400px;
+ margin-top: 40px;
+}
+
+#footer {
+	color: #333333;
+	font:Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	position:absolute;
+	bottom:0px;
+	right: 0px;
+	left: 0px;
+	padding-top: 7px;
+	padding-left: 50px;
+	z-index:2;
+}
+
+#map {
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:100%;
+}
+
+/***************************
+03. THEME
+***************************/
+
+h2, h3, h4 {
+	font-family: Comfortaa, Helvetica, sans-serif;
+}
+
+h5 {
+	font-family: Codystar, Helvetica, sans-serif;
+}
+
+
+h1 {
+display: none;
+float: none;
+font-size: 0;
+line-height: 0;
+margin: 0;
+padding: 0;
+text-indent: -9999px;
+}
+
+h2 {
+ font-size: 40px;
+ line-height: 1;
+ font-weight: 700;
+ color: #fff;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #CCCCCC;
+}
+
+h3 span {
+ color: #d94c73
+}
+
+h4 {
+ font-size: 14px;
+ line-height: 1;
+ font-weight: 400;
+ color: #3d3f40;
+ margin-top: 5px;
+}
+
+h5 {
+ font-size: 40px;
+ line-height: 1;
+ font-weight: 700;
+ color: #fff;
+}
